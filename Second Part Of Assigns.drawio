@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="31" id="LXurloQRKPJgxa5QRimT">
+    <mxGraphModel dx="797" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bVajP98vByiCMWxb-eTt-3" edge="1" parent="1" source="bVajP98vByiCMWxb-eTt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bVajP98vByiCMWxb-eTt-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVajP98vByiCMWxb-eTt-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Start" vertex="1">
+          <mxGeometry height="60" width="100" x="310" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVajP98vByiCMWxb-eTt-5" edge="1" parent="1" source="bVajP98vByiCMWxb-eTt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bVajP98vByiCMWxb-eTt-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVajP98vByiCMWxb-eTt-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="Read Num" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bVajP98vByiCMWxb-eTt-7" edge="1" parent="1" source="bVajP98vByiCMWxb-eTt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bVajP98vByiCMWxb-eTt-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVajP98vByiCMWxb-eTt-4" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="P2= Num * Num&lt;div&gt;P3 = P2 * Num&lt;/div&gt;&lt;div&gt;P4 = P3 * NUm&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="260" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bVajP98vByiCMWxb-eTt-9" edge="1" parent="1" source="bVajP98vByiCMWxb-eTt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bVajP98vByiCMWxb-eTt-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVajP98vByiCMWxb-eTt-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="Print P2, P3, P4" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="bVajP98vByiCMWxb-eTt-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="End" vertex="1">
+          <mxGeometry height="60" width="100" x="310" y="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
