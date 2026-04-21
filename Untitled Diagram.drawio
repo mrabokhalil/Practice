@@ -460,6 +460,33 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6Fv4fJJ3wVUo4YgoXlSL-3" edge="1" parent="1" source="6Fv4fJJ3wVUo4YgoXlSL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6Fv4fJJ3wVUo4YgoXlSL-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Fv4fJJ3wVUo4YgoXlSL-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Start" vertex="1">
+          <mxGeometry height="60" width="100" x="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6Fv4fJJ3wVUo4YgoXlSL-5" edge="1" parent="1" source="6Fv4fJJ3wVUo4YgoXlSL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6Fv4fJJ3wVUo4YgoXlSL-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Fv4fJJ3wVUo4YgoXlSL-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="Read Pin, Nick, Dim, Quar, Doll" vertex="1">
+          <mxGeometry height="40" width="240" x="260" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6Fv4fJJ3wVUo4YgoXlSL-7" edge="1" parent="1" source="6Fv4fJJ3wVUo4YgoXlSL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6Fv4fJJ3wVUo4YgoXlSL-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Fv4fJJ3wVUo4YgoXlSL-4" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Tpins = (Doll * 100) + (Quar * 25) + (Dim * 10) + (Nick * 5) + Pin&lt;div&gt;&lt;br&gt;&lt;div&gt;Total = Tpins / 100&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="385" x="185" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="6Fv4fJJ3wVUo4YgoXlSL-9" edge="1" parent="1" source="6Fv4fJJ3wVUo4YgoXlSL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6Fv4fJJ3wVUo4YgoXlSL-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Fv4fJJ3wVUo4YgoXlSL-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="Print Total" vertex="1">
+          <mxGeometry height="60" width="120" x="318" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="6Fv4fJJ3wVUo4YgoXlSL-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="End" vertex="1">
+          <mxGeometry height="60" width="100" x="325" y="540" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
